@@ -1,0 +1,291 @@
+@media screen and (max-width:576px) {
+    /* navbar mobile style starts here */
+    .navbar_menu{
+        display: none;
+    }
+    .humble_menubar{
+        display: block;
+        color: #ffffff;
+    }
+    .navbar_container{
+        
+        /* margin: 0px auto; */
+        padding: 15px 30px;
+    }
+    /* navbar mobile style ends here */
+
+
+    /* header section style starts here */
+    .body_container{
+        flex-direction: column;
+    }
+    .body_container{
+        margin: 25px 5px;
+    }
+    .body_left_title{
+        font-size: 2.8rem;
+        font-weight: 900;
+        line-height: 48px;
+    }
+    .body_left{
+        width: 85%;
+        height: 300px;
+        /* border: 2px solid tomato; */
+    }
+    .body_right{
+        height: 480px;
+    }
+    .body_right img{
+        height: 100%px;
+    }
+    .woukout_videos{
+        background-color: #808e9bef;
+        padding: 15px 15px;
+        width: 46%;
+        border-radius: 10px;
+        color: #ffffff;
+        position: absolute;
+        top: 25%;
+        left: 65%;
+    }
+    .woukout_videos_title{
+        font-size: 1.8rem;
+        font-weight: 800;
+    }
+    .woukout_videos_description{
+        font-size: 0.6rem;
+        font-weight: 400;
+        color: #ffffffc4;
+    }
+
+
+    .video_tutorial_left{
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        background-color: #fa8231;
+    }
+    .video_tutorial_container{
+        align-items: center;
+        gap: 7px;
+        background-color: #747d8cb0;
+        padding: 15px 15px;
+        width: 48%;
+        border-radius: 10px;
+        position: absolute;
+        top: 70%;
+        left: -15%;
+    }
+    .video_tutorial_title{
+        font-size: 1.8rem;
+        font-weight: 800;
+        color: #ffffffdb;
+    }
+    /* header section style starts here */
+
+
+    /* havit section style starts here */
+    .havit_child_one{
+        width: fit-content;
+        margin: 0 20px 40px;
+    }
+    .exercise_list{
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+
+    /* havit section style ends here */
+
+
+    /* run section style starts here */
+    .run_section{
+        margin: 0 20px;
+    }
+    .run_container{
+        flex-direction: column;
+        gap: 50px;
+        padding: 30px;
+     }
+     .run_child_one{
+        width: 100%;
+        height: 200px;
+        /* border: 2px solid tomato; */
+    }
+    .run_chils_one_again{
+        padding-left: 0px;
+    }
+    .run_child_two{
+        width: 100%;
+        height: 220px;
+        /* border: 2px solid tomato; */
+    }
+    .run_child_two img{
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+    }
+    .btn_tersiary{
+        background-color: #fa8231;
+        border: none;
+        padding: 12px 126px;
+        border-radius: 30px;
+        color: #ffffff;
+        margin-top: 15px;
+        margin-right: 5px;
+        text-align: center;
+    }
+
+    /* run section style ends here */
+
+    /* traning section style starts here */
+    .traning_section{
+        margin: 70px 20px;
+    }
+    .traning_container{
+        max-width: 900px;
+        height: 450px;
+        display: grid;
+        grid-template-columns: repeat(12,1fr);
+        grid-template-rows: repeat(12,1fr);
+    }
+
+
+    .traning_child_one{
+        background-color: rgb(14, 173, 185);
+        grid-column: 1 / span 5;
+        grid-row: 1 / span 6;
+        position: relative;
+    }
+    .traning_child_one img{
+        width: 100%;
+        height: 100%;
+        filter: opacity(70%);
+    }
+    .traning_child_ones_child{
+        position: absolute;
+        font-size: 0.7rem;
+        color: #ffffff;
+        width: 150px;
+        top: 80%;
+        left: 10%;
+    }
+    .traning_child_two{
+        background-color: rgb(184, 14, 127);
+        grid-column: 6 / span 7;
+        grid-row: 1 / span 6;
+        position: relative;
+    }
+    .traning_child_two img{
+        width: 100%;
+        height: 100%;
+        filter: opacity(70%);
+    }
+    .traning_child_twos_child{
+        position: absolute;
+        font-size: 0.7rem;
+        color: #ffffff;
+        width: 150px;
+        top: 6%;
+        left: 35%;
+    }
+    .traning_child_four{
+        background-color: rgb(41, 37, 37);
+        grid-column: 1 / span 7;
+        grid-row: 7 / span 6;
+        position: relative;
+    }
+    .traning_child_four img{
+        width: 100%;
+        height: 100%;
+        filter: opacity(70%);
+    }
+    .traning_child_fours_child{
+        position: absolute;
+        font-size: 0.7rem;
+        color: #ffffff;
+        width: 150px;
+        top: 10%;
+        left: 35%;
+    }
+    .traning_child_five{
+        background-color: rgb(203, 96, 14);
+        grid-column: 8 / span 5;
+        grid-row: 7 / span 7;
+        position: relative;
+    }
+    .traning_child_five img{
+        width: 100%;
+        height: 100%;
+        filter: opacity(70%);
+    }
+    .traning_child_fives_child{
+        position: absolute;
+        font-size: 0.7rem;
+        color: #ffffff;
+        width: 150px;
+        top: 80%;
+        left: 10%;
+    }
+    .traning_child_three{
+        display: none;
+    }
+    .traning_child_six{
+        display: none;
+    }
+    
+    /* traning section style ends here */
+
+    /* bmi section style starts here */
+    .bmi_div{
+        margin: 50px 20px;
+    }
+    .bmi_container{
+        flex-direction: column;
+        gap: 80px;
+        padding: 40px 20px;
+    }
+    .bmi_input_container{
+        width: 103%;
+    }
+    
+    /* bmi section style ends here */
+
+    /* team section style starts here */
+    .team_section{
+        margin: 70px 20px;
+    }
+    .team_section_first_div{
+        width: 310px;
+    }
+    .team_list{
+        height: fit-content;
+        grid-template-columns: 1fr;
+        row-gap: 20px;
+    }
+    .team_list_one{
+        display: none;
+    }
+    .team_list_four{
+        display: none;
+    }
+    /* team section style ends here */
+    
+    /* footer section style starts here */
+    .footer_main_div{
+        flex-direction: column;
+        align-items: start;
+        gap: 20px;
+        padding: 50px 20px;
+    }
+    .footer_title_details{
+        width: 100%;
+    }
+    .copyright_div{
+        margin: 0 20px;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+    /* footer section style ends here */
+}
